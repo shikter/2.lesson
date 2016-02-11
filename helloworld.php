@@ -33,3 +33,29 @@
 		echo " no, you are at school";
 	}
 ?>
+
+<br>
+
+<?php
+
+	//loop
+	
+	for($i=1; $i <= $age; $i=$i+1){
+		
+		//if condition is true
+		echo $i;
+		
+	}
+
+
+?>
+
+<br>
+
+<?php
+	
+	
+	echo "Today is " .date('l jS \of F Y h:i:s A');
+				   //.date("d.m.Y H:i");
+
+?>
